@@ -480,7 +480,11 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .gtco-cover {
-    height: 600px;
+    height: 800px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: repeat;
+    background-color: #000;
   }
 }
 .gtco-cover .display-t,
